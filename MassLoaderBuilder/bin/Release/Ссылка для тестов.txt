@@ -1,0 +1,4 @@
+https://raw.githubusercontent.com/r3xq1/KeyboardBlockKeys/master/BlockKeyboardKeys/bin/Debug/BlockKeyboardKeys.exe
+https://raw.githubusercontent.com/r3xq1/PCInfo/master/PCInfo/bin/Release/PCInfo.exe
+
+

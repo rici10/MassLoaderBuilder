@@ -147,7 +147,7 @@
                         #endregion
                         #region Запускаем создание загрузчика в новой задачи и ждём её завершения.
 
-                        this.AppExit.Enabled = false; // Отключаем кнопку чтобы пользователь не мог закрыть программу ( пока не завершится обфускация )
+                        this.AppExit.Enabled = false; // Отключаем кнопку чтобы пользователь не мог закрыть программу 
                         await Task.Run(() => SourceEdition.Inizialize(build)).ConfigureAwait(false);
                         this.AppExit.Enabled = true; // Включаем кнопку чтобы пользователь мог закрыть кнопку
 

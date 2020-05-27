@@ -30,7 +30,6 @@
 
         public static void Inizialize(Build collection)
         {
-            // Создаём temp.darkpr с параметрами и запускаем обфускацию
             string exe = $"{collection.BoxFileName}.exe", // Имя Билд файла
                    Source = EncryptKey.Decrypt(Resources.Build, GlobalPath.KEY), // Расшифрованный билд из ресурсов
                    combine = FileManager.CombinePath(GlobalPath.CurrDir, exe); // Путь к билд файлу из текущей директории
